@@ -1,0 +1,12 @@
+.container1{
+    margin-left: 27%;
+}
+.container1 table div{
+    margin: 20px;
+    width:225px;
+    height:224px;
+    border:1px solid red;
+}
+.center{
+    text-align: center;
+}

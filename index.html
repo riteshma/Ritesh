@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="game1">
+        <div class="container1">
+            <div>
+            <table>
+            <tr>
+               <td><div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"><img id="drag1" src="Image/moon.jpeg" draggable="true" ondragstart="drag(event)" ondrop=""></div></td>
+                <td><div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                <td style="padding-left:200px; padding-top:15px; width:100px;">
+                   <input type="button" value="Reset" id="reset" onclick="reset1();" style="width:150px; background-color:rgb(39, 70, 226); color:white; padding:5px; border-radius:10px; "> 
+                </td></tr>
+            </table>
+                <br>        
+            </div>
+        </div>
+    </div>    
+        <script src="index.js"></script>
+</body>
+</html>
